@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3E886"
+    tools:context=".sub1activity">
+
+
+    <Button
+        android:id="@+id/btn123"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dip"
+        android:text="메모작성 하러가기"
+        android:textSize="25dp"
+        android:background="@drawable/button123"
+        android:onClick="displayAds"/>
+</RelativeLayout>
